@@ -4,6 +4,10 @@ body {
   font-family: 'League Spartan';
   font-size: 15px;
   font-weight: 400;
+  background-image: url(../images/bg-pattern-top-desktop.svg),
+  url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .container {
@@ -74,13 +78,11 @@ body {
 }
 
 /* CARDS */
-
 .cards {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .info-cards {
@@ -88,7 +90,7 @@ body {
   border-radius: 7px;
   padding: 25px;
   width: 250px;
-  height: 200px;
+  height: 160px;
   justify-content: center;
   background-color: #5e2b5e;
 }
@@ -151,6 +153,7 @@ body {
   flex-basis: 50%;
 }
 
+/* ATTRIBUTION */
 .attribution {
   text-align: center;
   margin-top: 50px;
